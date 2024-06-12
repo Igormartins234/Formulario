@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#topo {
+  text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#img {
+  width: 140px;
+  margin-right: 5%;
+}
+
+#logo {
+  width: 180px;
+  
+
+}
+#formulario {
+    width: 300px;
+    margin: 0 auto;
+    padding: 23px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+body{
+  height: 300px; 
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+#formulario{
+  background-color: whitesmoke;
+}
+#formulario h1{
+  margin-bottom: 14px;
+}
+#formulario #a1{
+  font-size: 28px;
+}
+.form{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px; 
+}
+.form p{
+  margin-top: 20px;
+}
+#caixalogin{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+      color:black;
+      padding:15px;
+      text-align:center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+}
+
+input[type="senha"] {
+    width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="texto"] {
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px
+}
+label {
+    display: block;
+    margin-bottom: 11px;
+  }
+  button[type="botão"] {
+    background-color: rgb(25, 25, 181);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+  button[type="botão"]:hover {
+    background-color: rgb(50, 50, 227);
+    
+  }
+
+  a {
+    color: #0095ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
